@@ -9,6 +9,8 @@ Property Email As %String;
 
 Property Mobile As %String;
 
+Index EmailIdx On Email [ Type = index, Unique ];
+
 Storage Default
 {
 <Data name="ClientDefaultData">
@@ -23,9 +25,6 @@ Storage Default
 </Value>
 <Value name="4">
 <Value>Mobile</Value>
-</Value>
-<Value name="5">
-<Value>Applications</Value>
 </Value>
 </Data>
 <DataLocation>^Excursions.ClientD</DataLocation>

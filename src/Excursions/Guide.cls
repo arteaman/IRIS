@@ -12,12 +12,6 @@ Storage Default
 <Value>%%CLASSNAME</Value>
 </Value>
 <Value name="2">
-<Value>Location</Value>
-</Value>
-<Value name="3">
-<Value>Type</Value>
-</Value>
-<Value name="4">
 <Value>FIO</Value>
 </Value>
 </Data>

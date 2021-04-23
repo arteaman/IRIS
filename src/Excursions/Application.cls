@@ -7,19 +7,22 @@ Relationship Schedule As Excursions.Schedule [ Cardinality = one, Inverse = Appl
 
 Storage Default
 {
-<Data name="GroupDefaultData">
+<Data name="ApplicationDefaultData">
 <Value name="1">
 <Value>%%CLASSNAME</Value>
 </Value>
 <Value name="2">
-<Value>FIO</Value>
+<Value>Client</Value>
+</Value>
+<Value name="3">
+<Value>Schedule</Value>
 </Value>
 </Data>
-<DataLocation>^Excursions.GroupD</DataLocation>
-<DefaultData>GroupDefaultData</DefaultData>
-<IdLocation>^Excursions.GroupD</IdLocation>
-<IndexLocation>^Excursions.GroupI</IndexLocation>
-<StreamLocation>^Excursions.GroupS</StreamLocation>
+<DataLocation>^Excursions.ApplicationD</DataLocation>
+<DefaultData>ApplicationDefaultData</DefaultData>
+<IdLocation>^Excursions.ApplicationD</IdLocation>
+<IndexLocation>^Excursions.ApplicationI</IndexLocation>
+<StreamLocation>^Excursions.ApplicationS</StreamLocation>
 <Type>%Storage.Persistent</Type>
 }
 

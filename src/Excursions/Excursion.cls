@@ -19,9 +19,6 @@ Storage Default
 <Value name="3">
 <Value>Type</Value>
 </Value>
-<Value name="4">
-<Value>guide</Value>
-</Value>
 </Data>
 <DataLocation>^Excursions.ExcursionD</DataLocation>
 <DefaultData>ExcursionDefaultData</DefaultData>
